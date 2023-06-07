@@ -1,0 +1,150 @@
+h1 {
+ color:brown;
+ /* background-color: aquamarine; */
+ font-size:  25px;
+ text-decoration: wavy;
+ font-family: 'Lucida Sans';
+ text-align:left;
+}
+p {
+    color:rgb(16, 15, 15);
+    /* background-color: blanchedalmond; */
+    text-align: left;
+    line-height: 30px;
+    letter-spacing: 3px;
+    
+}
+ul {
+    /* border-width: 4px;
+    border-style: solid;
+    border-color: aqua; */
+    /* border: 4px solid chocolate; */
+    border-bottom: chocolate; 
+    border-left: 8px  rgb(2, 21, 58)
+}
+li{
+    list-style-type:circle;
+    /* text-shadow: 2px 2px lightslategray; */
+    text-shadow: 2px 2px rgb(191, 187, 191);
+}
+
+body, ul, li, h1,h2, a{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #f76e13;
+    padding: 20px;
+    text-align:center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    
+}
+header h1 {
+    color: white;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display:inline-block;
+    border-radius: 37px;
+}
+.banner {
+    position: relative;
+}
+.banner img {
+    max-width:100%;
+}
+.banner .welcome {
+    position: absolute;
+    left: 0px;
+    top: 30%;
+    background-color: #feb614;
+    color: white;
+    padding: 30px;
+}
+.banner h2 {
+    font-size: 73px;
+}
+
+.banner h2 span {
+    font-size: 1.23em;
+}
+nav {
+    background-color: antiquewhite;
+    padding: 20px;
+    position: sticky;
+    top: 94px;
+}
+nav li {
+    width: 26%;
+    display: inline-block;
+    font-size: 23px;
+}
+nav ul {
+    white-space: nowrap;
+    max-width: 1200px;
+    margin:0 auto;
+}
+nav li a {
+    text-decoration: none;
+    color: grey;
+}
+nav li a.participate {
+    color: red;
+}
+
+main {
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+article h2 {
+    color: red;
+    font-size: 48px;
+}
+article p {
+    line-height: 2em;
+    color: black;
+}
+.images {
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+.images li{
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+}
+.images li img{
+    max-width: 100%;
+}
+.join {
+    background-color: rgb(239, 242, 245);
+    text-align: center;
+    padding: 60px 20px;
+    color: grey;
+}
+.join h2{
+    color: blue;
+    font-size: 36px;
+}
+form input {
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 28px;
+    border: 4px solid white;
+}
+footer p {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
